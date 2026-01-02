@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: min-content;
+  width: 100vw;
+  overflow-x: hidden;
+}
+:root {
+  --primary-color: #fff;
+  --button-bg-color: #ffd936;
+  --button-color: #536924;
+}
