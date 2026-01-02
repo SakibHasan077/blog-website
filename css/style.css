@@ -13,3 +13,26 @@ body {
   --button-bg-color: #ffd936;
   --button-color: #536924;
 }
+/** Header */
+header {
+  padding: 0 20px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.144)),
+    url(../image/header-hero.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+header .logo img {
+  width: 60px;
+  margin-left: 50px;
+}
+header .nav-items ul > li,
+button {
+  padding: 0 16px;
+}
+header .nav-items button {
+  padding: 10px 20px;
+  margin-right: 50px;
+}
