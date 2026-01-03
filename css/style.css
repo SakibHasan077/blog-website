@@ -74,14 +74,51 @@ main {
 }
 /*? Media Query */
 @media (max-width: 1200px) {
-  /* Hero Section */
+  /* Header section  */
   header {
     height: 80vh;
   }
+  /* Hero Section */
 }
 @media (max-width: 992px) {
-  /* Hero Section */
+  /* Header section */
   header {
     height: 80vh;
+  }
+  /* Hero Section */
+  .hero-container h1 {
+    font-size: 43px;
+  }
+  .hero-container h1 span {
+    font-size: 85px;
+  }
+  .hero-container p {
+    font-size: 16px;
+    padding: 0px 150px;
+  }
+  .hero-container button {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 768px) {
+  /* Hero Section */
+  .hero-container h1 {
+    font-size: 35px;
+  }
+  .hero-container h1 span {
+    font-size: 70px;
+  }
+  .hero-container p {
+    font-size: 16px;
+    padding: 0px;
+  }
+  .hero-container button {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 520px) {
+  /* Hero  */
+  .hero-container p {
+    padding: 0px 50px;
   }
 }
