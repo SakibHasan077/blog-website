@@ -76,14 +76,13 @@ main {
 @media (max-width: 1200px) {
   /* Header section  */
   header {
-    height: 80vh;
+    height: 100vh;
   }
-  /* Hero Section */
 }
 @media (max-width: 992px) {
   /* Header section */
   header {
-    height: 80vh;
+    height: 100vh;
   }
   /* Hero Section */
   .hero-container h1 {
