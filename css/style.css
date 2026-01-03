@@ -36,3 +36,16 @@ header .nav-items button {
   padding: 10px 20px;
   margin-right: 50px;
 }
+/*? Media Query */
+@media (max-width: 1200px) {
+  /* Hero Section */
+  header {
+    height: 80vh;
+  }
+}
+@media (max-width: 992px) {
+  /* Hero Section */
+  header {
+    height: 80vh;
+  }
+}
