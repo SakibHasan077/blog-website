@@ -13,6 +13,17 @@ body {
   --button-bg-color: #ffd936;
   --button-color: #536924;
 }
+/* Same Classes */
+.same-btn {
+  color: var(--button-color);
+  background-color: var(--button-bg-color);
+  border: 0;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+.same-btn:hover {
+  background-color: #96791c;
+}
 /** Header */
 header {
   padding: 0 20px;
@@ -35,6 +46,31 @@ button {
 header .nav-items button {
   padding: 10px 20px;
   margin-right: 50px;
+}
+/**Main section */
+main {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.hero-container h1 {
+  font-size: 50px;
+}
+.hero-container h1 span {
+  font-size: 98px;
+}
+.hero-container p {
+  font-size: 18px;
+  padding: 0px 360px;
+}
+
+.hero-container button {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.hero-container button:hover {
+  background-color: #96791c;
+  color: white;
 }
 /*? Media Query */
 @media (max-width: 1200px) {
