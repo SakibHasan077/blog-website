@@ -72,6 +72,38 @@ main {
   background-color: #96791c;
   color: white;
 }
+/** Review Section */
+#review {
+  width: 98vw;
+  height: 470px;
+  background-color: #53692433;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  /* margin-top: 100px; */
+}
+.review-container {
+  margin: 0 25px;
+}
+#review .first img {
+  width: 37px;
+  opacity: 50%;
+}
+#review .second p {
+  font-size: 36px;
+  text-align: center;
+  color: #536942;
+}
+#review .third img {
+  width: 60px;
+}
+#review .third .content {
+  text-align: center;
+  font-size: 18px;
+  color: #536924;
+  margin-left: -20px;
+  margin-top: 20px;
+}
 /*? Media Query */
 @media (max-width: 1200px) {
   /* Header section  */
