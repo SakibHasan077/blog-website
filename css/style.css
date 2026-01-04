@@ -72,6 +72,56 @@ main {
   background-color: #96791c;
   color: white;
 }
+/* Hero section End */
+/** Service Section */
+#services {
+  width: 85vw;
+  margin: auto;
+  height: min-content;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#services h2 {
+  color: var(--button-color);
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 15px;
+  text-decoration-color: #ffd936;
+  -moz-text-decoration-color: #ffd936;
+  /* margin-bottom: 400px; */
+}
+
+#services .service-section {
+  margin-top: 100px;
+}
+.service-column {
+  height: 500px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 6px;
+}
+.service-column img {
+  height: 450px;
+}
+.service-column h3 {
+  font-size: 20px;
+  color: #536924;
+  margin: 9px 0;
+}
+.service-column p {
+  color: #526840bf;
+  padding: 0 20px 0 0;
+}
+.gap-div {
+  margin-top: 170px;
+}
+/* Service Section End */
 /** Review Section */
 #review {
   width: 98vw;
