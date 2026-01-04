@@ -204,6 +204,10 @@ main {
   .hero-container button {
     margin-top: 5px;
   }
+  /* Service Section */
+  #services {
+    margin-bottom: 80px;
+  }
   /* Review Section */
   #review {
     margin-top: 80px;
@@ -217,12 +221,18 @@ main {
   #review .third img {
     width: 50px;
   }
-  /* About Section */
 }
 @media (max-width: 520px) {
   /* Hero  */
   .hero-container p {
     padding: 0px 50px;
+  }
+  /* Service  */
+  #services .service-section {
+    margin-top: 38px;
+  }
+  .service-column {
+    margin-top: 37px;
   }
   /* Review */
   #review {
