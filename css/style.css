@@ -291,6 +291,18 @@ main {
   #about .about-col-2 {
     flex-basis: 50%;
   }
+  /* Question Section  */
+  #question .question-con h2 {
+    text-transform: uppercase;
+    color: #536942;
+    font-size: 58px;
+  }
+  #question p {
+    font-size: 17px;
+    color: #526840bf;
+    margin: 5px 0 25px;
+    text-align: center;
+  }
 }
 @media (max-width: 768px) {
   /* Hero Section */
@@ -344,6 +356,23 @@ main {
     display: flex;
     justify-content: center;
   }
+  /* Question Section  */
+  #question {
+    height: min-content;
+    padding: 20px;
+  }
+  #question .question-con h2 {
+    text-transform: uppercase;
+    color: #536942;
+    font-size: 42px;
+  }
+  #question p {
+    font-size: 15px;
+    color: #526840bf;
+    margin: 0px 0 2px;
+    padding: 0 0px;
+    text-align: center;
+  }
 }
 @media (max-width: 520px) {
   /* Hero  */
@@ -360,5 +389,12 @@ main {
   /* Review */
   #review {
     margin-top: 80px;
+  }
+  #question p {
+    font-size: 15px;
+    color: #526840bf;
+    margin: 0px 0 2px;
+    padding: 0 0px;
+    text-align: center;
   }
 }
