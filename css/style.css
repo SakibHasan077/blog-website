@@ -196,6 +196,39 @@ main {
   height: 85%;
 }
 /* About Section End */
+/** Question Section */
+#question {
+  height: 480px;
+  width: 98vw;
+  margin: auto;
+  /* overflow: hidden; */
+  background-image: url(../image/footer-hero-big.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#question .question-con h2 {
+  text-transform: uppercase;
+  color: #536942;
+  font-size: 58px;
+}
+#question p {
+  font-size: 17px;
+  color: #526840bf;
+  margin: 5px 0 25px;
+  text-align: center;
+}
+#question button {
+  font-size: 14px;
+  color: #536942;
+  padding: 17px 35px;
+  background-color: #ffd936;
+  width: 170px;
+}
+#question button:hover {
+  background-color: #96791c;
+}
+/* Question section end */
 /*? Media Query */
 @media (max-width: 1200px) {
   /* Header section  */
