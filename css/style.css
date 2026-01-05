@@ -229,6 +229,27 @@ main {
   background-color: #96791c;
 }
 /* Question section end */
+/** Footer Section */
+footer {
+  height: 115px;
+  width: 98vw;
+  margin: auto;
+}
+footer .footer-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+footer .footer-col-1 ul li a {
+  color: #536942;
+}
+footer .footer-col-2 img {
+  width: 60px;
+}
+footer .footer-col-3 {
+  color: #536942;
+}
 /*? Media Query */
 @media (max-width: 1200px) {
   /* Header section  */
