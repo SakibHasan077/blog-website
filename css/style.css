@@ -394,6 +394,10 @@ footer .footer-col-3 {
     padding: 0 0px;
     text-align: center;
   }
+  /* Footer Section */
+  footer .footer-col {
+    padding: 3px;
+  }
 }
 @media (max-width: 520px) {
   /* Hero  */
